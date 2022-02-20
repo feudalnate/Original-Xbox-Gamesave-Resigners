@@ -32,7 +32,7 @@ Note: "Decompressed file size" isn't covered by the Non-roamable signature (for 
 #define INFO_SUPPORTED_REGIONS "NTSC-U / NTSC-J / PAL\0"
 #define INFO_TITLE_ID "4C41000D\0"
 
-#define INFO_USAGE "aadsigner\0"
+#define INFO_USAGE "aadsign <XboxHDKey> <file>\0"
 
 #define INFO_URL "https://github.com/feudalnate\0"
 #define INFO_BUILD_DATE __DATE__
