@@ -16,11 +16,9 @@ Note: When bulk signing files in a directory, only **known file names** will be 
 > /UDATA/54540009/[SaveID]/`[known file name]`
 
 <details>
-<summary>View known file names</summary>
+<summary>View 110 known file names</summary>
 
 ```
-110 known files  
-
 mafia.000, mafia.005, mafia.010, mafia.015, mafia.020, mafia.025, mafia.030, mafia.040, mafia.045, mafia.050
 mafia.055, mafia.060, mafia.065, mafia.070, mafia.075, mafia.080, mafia.085, mafia.090, mafia.095, mafia.100
 mafia.105, mafia.110, mafia.115, mafia.130, mafia.131, mafia.135, mafia.140, mafia.145, mafia.146, mafia.150
