@@ -11,7 +11,7 @@
 ### Option 1: Modded console (softmod or hardmod)
 ------
 
-Using a modded console the XboxHDKey can be obtained through software alone. Various dashboards and tools such as UnleashX dashboard, EvolutionX dashboard, Xbox Media Center, ConfigMagic, and various other applications will make this information available at a glace
+Using a modded console the XboxHDKey can be obtained through software alone. Various dashboards and tools such as UnleashX dashboard, EvolutionX dashboard, Xbox Media Center, ConfigMagic, and various other applications will make this information available at a glance
 
 ![Image](https://i.imgur.com/d9GiC03.png)
 
