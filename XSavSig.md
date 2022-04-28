@@ -12,6 +12,7 @@ A collection of `resign.ini` sections to add signing support of various gamesave
 
 > Some gamesaves are signed as `non-roamable` and require the unique per-console `XboxHDKey` to be stored in the `xboxhddkey.ini` file. If the `XboxHDKey` is required then the key must be from the console you intend to copy the gamesave to or the save will display as "corrupt".
 
+
 * [Retrieve the XboxHDKey from a **Xbox** ](https://github.com/feudalnate/Original-Xbox-Gamesave-Resigners/blob/master/XboxHDKey.md#retrieving-the-xboxhdkey-from-the-xbox)
 * [Retrieve the XboxHDKey from a **Xbox 360** ](https://github.com/feudalnate/Original-Xbox-Gamesave-Resigners/blob/master/XboxHDKey.md#retrieving-the-xboxhdkey-from-the-xbox-360)
 
@@ -35,8 +36,31 @@ __Non-Roamable:__ Save data signed with a _non-roamable_ signature cannot be cop
 Configurations
 ------
 
+__Index__
 
-__Armed & Dangerous__
+- [Armed & Dangerous](#armed--dangerous)
+- [Call of Duty: Finest Hour](#call-of-duty-finest-hour)
+- [Dead or Alive Ultimate](#dead-or-alive-ultimate)
+- [FlatOut](#flatout)
+- [FlatOut 2](#flatout-2)
+- [Grabbed by the Ghoulies](#grabbed-by-the-ghoulies)
+- [Hitman: Contracts](#hitman-contracts)
+- [Jet Set Radio Future](#jet-set-radio-future)
+- [Mafia](#mafia)
+- [Metal Gear Solid 2: Substance](#metal-gear-solid-2-substance)
+- [Ninja Gaiden](#ninja-gaiden)
+- [Ninja Gaiden Black](#ninja-gaiden-black)
+- [Project Gotham Racing 2](#project-gotham-racing-2)
+- [Splinter Cell: Chaos Theory](#splinter-cell-chaos-theory)
+- [Splinter Cell: Double Agent](#splinter-cell-double-agent)
+- [Splinter Cell: Pandora Tomorrow](#splinter-cell-pandora-tomorrow)
+- [Star Wars: Republic Commando](#star-wars-republic-commando)
+- [The Thing](#the-thing)
+- [TimeSplitters 2](#timesplitters-2)
+
+------
+
+#### Armed & Dangerous
 
 `XboxHDKey required`
 
@@ -54,7 +78,7 @@ SigType=NoRoam
 
 ------
 
-__Call of Duty: Finest Hour__
+#### Call of Duty: Finest Hour
 
 ```
 [CODFH]
@@ -70,7 +94,7 @@ SigOffset=4
 
 ------
 
-__Dead or Alive Ultimate__
+#### Dead or Alive Ultimate
 
 `XboxHDKey required`
 
@@ -97,7 +121,45 @@ SigType=NoRoam
 
 ------
 
-__Grabbed by the Ghoulies__
+#### FlatOut
+
+`XboxHDKey required`
+
+```
+[FO]
+ID=454D0009
+Title=FlatOut
+SigKey=C8D3C3573CFAD039B9DBB54D742ED579
+AuthKey=586D8E52CAC2F01568E46C5975E79852
+DataFile=*.sav
+DataOffset=0
+DataLen=-20
+SigOffset=-20
+SigType=NoRoam
+```
+
+------
+
+#### FlatOut 2
+
+`XboxHDKey required`
+
+```
+[FO2]
+ID=454D0020
+Title=FlatOut 2
+SigKey=EC1981167F15ACB9FEAD8AB67A02C1A5
+AuthKey=9E20635C39F13E314A9D297154F354FD
+DataFile=*.sav
+DataOffset=0
+DataLen=-20
+SigOffset=-20
+SigType=NoRoam
+```
+
+------
+
+#### Grabbed by the Ghoulies
 
 ```
 [GBTG]
@@ -112,7 +174,7 @@ SigOffset=1004
 
 ------
 
-__Hitman: Contracts__
+#### Hitman: Contracts
 
 ```
 [HC]
@@ -127,7 +189,7 @@ SigOffset=-24
 
 ------
 
-__Jet Set Radio Future__
+#### Jet Set Radio Future
 
 ```
 [JSRF_NTSC]
@@ -153,7 +215,7 @@ SigOffset=0
 
 ------
 
-__Mafia__
+#### Mafia
 
 `XboxHDKey required`
 
@@ -171,7 +233,7 @@ SigType=NoRoam
 
 ------
 
-__Metal Gear Solid 2: Substance__
+#### Metal Gear Solid 2: Substance
 
 ```
 [MGS2]
@@ -187,7 +249,7 @@ SigOffset=4
 
 ------
 
-__Ninja Gaiden__
+#### Ninja Gaiden
 
 `XboxHDKey required`
 
@@ -215,7 +277,7 @@ SigType=NoRoam
 
 ------
 
-__Ninja Gaiden Black__
+#### Ninja Gaiden Black
 
 `XboxHDKey required`
 
@@ -243,7 +305,7 @@ SigType=NoRoam
 
 ------
 
-__Project Gotham Racing 2__
+#### Project Gotham Racing 2
 
 ```
 [PGR2]
@@ -259,7 +321,7 @@ SigOffset=0
 
 ------
 
-__Splinter Cell: Chaos Theory__
+#### Splinter Cell: Chaos Theory
 
 ```
 [SCCT_SP]
@@ -284,7 +346,7 @@ SigOffset=0
 
 ------
 
-__Splinter Cell: Double Agent__
+#### Splinter Cell: Double Agent
 
 `XboxHDKey required`
 
@@ -302,7 +364,7 @@ SigType=NoRoam
 
 ------
 
-__Splinter Cell: Pandora Tomorrow__
+#### Splinter Cell: Pandora Tomorrow
 
 ```
 [SCPT_SP]
@@ -327,7 +389,7 @@ SigOffset=0
 
 ------
 
-__Star Wars: Republic Commando__
+#### Star Wars: Republic Commando
 
 `XboxHDKey required`
 
@@ -355,7 +417,7 @@ SigType=NoRoam
 
 ------
 
-__The Thing__
+#### The Thing
 
 `XboxHDKey required`
 
@@ -405,7 +467,7 @@ SigType=NoRoam
 
 ------
 
-__TimeSplitters 2__
+#### TimeSplitters 2
 
 ```
 [TS2_SAVE]
@@ -427,5 +489,3 @@ DataOffset=0
 DataLen=-20
 SigOffset=-20
 ```
-
-
