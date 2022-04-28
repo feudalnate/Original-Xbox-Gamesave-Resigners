@@ -59,7 +59,7 @@ The `motherboard serial number` can be obtained from a **sticker on top of the X
 ### Option 2: Access to dumped and decrypted keyvault data
 ------
 
-Using a dump of the decrypted KV data both the console serial number and motherboard serial number can be obtained by opening the dump in a tool such a `360 Flash Dump Tool`
+Using a dump of the decrypted KV data both the console serial number and motherboard serial number can be obtained by opening the dump in a tool such a `360 Flash Dump Tool` or simply be imported automatically using [`XboxHDKey for Xbox 360`](https://github.com/feudalnate/Original-Xbox-Gamesave-Resigners/tree/master/XboxHDKey%20for%20Xbox%20360), which available in this repository.
 
 ![Image](https://i.imgur.com/mAkf55o.png)
 
@@ -87,6 +87,6 @@ ZZZZZZZZMMMMMMMMMMMMMMMMCCCCCCCC
 
 You can also automate this process using the [`XboxHDKey for Xbox 360`](https://github.com/feudalnate/Original-Xbox-Gamesave-Resigners/tree/master/XboxHDKey%20for%20Xbox%20360) tool which available in this repository
 
-![Image](https://i.imgur.com/03TtEHd.png)
+![Image](https://i.imgur.com/U7UM0ny.png)
 
 [Troubleshooting invalid motherboard serial number](https://www.reddit.com/r/originalxbox/comments/adwlwg/xbox_game_save_resigner_formula/edugoxb/?utm_medium=web2x&context=3) (scroll down to the bottom of the thread)
