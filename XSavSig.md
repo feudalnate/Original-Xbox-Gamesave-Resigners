@@ -59,6 +59,7 @@ __Index__
 - [Star Wars: Republic Commando](#star-wars-republic-commando)
 - [The Thing](#the-thing)
 - [TimeSplitters 2](#timesplitters-2)
+- [TRON 2.0: Killer App](#tron-20-killer-app)
 
 ------
 
@@ -522,4 +523,20 @@ DataFile=*.mkr
 DataOffset=0
 DataLen=-20
 SigOffset=-20
+```
+
+------
+
+#### TRON 2.0: Killer App
+
+```
+[TRON]
+ID=42560001
+Title=TRON 2.0 Killer App
+SigKey=8DF7A69459390F9BFA41012D82445519
+AuthKey=7408C4B5755BA389CF0BF0BCB1153A50
+DataFile=*.sav
+DataOffset=20
+DataLen=-20
+SigOffset=0
 ```
