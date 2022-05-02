@@ -41,6 +41,8 @@ __Index__
 - [Armed & Dangerous](#armed--dangerous)
 - [Call of Duty: Finest Hour](#call-of-duty-finest-hour)
 - [Dead or Alive Ultimate](#dead-or-alive-ultimate)
+- [Far Cry Instincts](#far-cry-instincts)
+- [Far Cry Instincts: Evolution](#far-cry-instincts-evolution)
 - [FlatOut](#flatout)
 - [FlatOut 2](#flatout-2)
 - [Grabbed by the Ghoulies](#grabbed-by-the-ghoulies)
@@ -117,6 +119,38 @@ DataFile=ups.dat
 DataOffset=20
 SigOffset=0
 SigType=NoRoam
+```
+
+------
+
+#### Far Cry Instincts
+
+```
+[FCI]
+ID=55530008
+Title=Far Cry Instincts
+SigKey=2FF20BB65D72ED5D46A2A2D625E1A625
+AuthKey=FEE516F601C6432342E0753A090A02B5
+DataFile=*.*
+DataOffset=0
+DataLen=-20
+SigOffset=-20
+```
+
+------
+
+#### Far Cry Instincts: Evolution
+
+```
+[FCIE]
+ID=55530060
+Title=Far Cry Instincts Evolution
+SigKey=79A31342BE08D67E139F395DD4CDFAD6
+AuthKey=51145D98282B7B70957089AE8DCA9CA2
+DataFile=*.*
+DataOffset=0
+DataLen=-20
+SigOffset=-20
 ```
 
 ------
