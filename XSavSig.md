@@ -40,6 +40,7 @@ __Index__
 
 - [Armed & Dangerous](#armed--dangerous)
 - [Call of Duty: Finest Hour](#call-of-duty-finest-hour)
+- [Darkwatch](#darkwatch)
 - [Dead or Alive Ultimate](#dead-or-alive-ultimate)
 - [Far Cry Instincts](#far-cry-instincts)
 - [Far Cry Instincts: Evolution](#far-cry-instincts-evolution)
@@ -93,6 +94,32 @@ DataFile=*.dat
 DataOffset=24
 DataLen=212
 SigOffset=4
+```
+
+------
+
+#### Darkwatch
+
+```
+[DW_NTSCU]
+ID=43430016
+Title=Darkwatch (NTSC-U)
+SigKey=42AB477C2A5D3F4842256474E14DE672
+AuthKey=96E3FD75D5929064C61D7CD2EE223AC0
+DataFile=*.*
+DataOffset=0
+DataLen=-20
+SigOffset=-20
+
+[DW_PAL]
+ID=5553005C
+Title=Darkwatch (PAL)
+SigKey=9CE2958FBA2E2649E58CDB79F5595A86
+AuthKey=A0098831DCF721B2F25B681D13E4FF97
+DataFile=*.*
+DataOffset=0
+DataLen=-20
+SigOffset=-20
 ```
 
 ------
