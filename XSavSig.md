@@ -54,6 +54,7 @@ __Index__
 - [Ninja Gaiden](#ninja-gaiden)
 - [Ninja Gaiden Black](#ninja-gaiden-black)
 - [Project Gotham Racing 2](#project-gotham-racing-2)
+- [Silent Hill 4: The Room](#silent-hill-4-the-room)
 - [Splinter Cell: Chaos Theory](#splinter-cell-chaos-theory)
 - [Splinter Cell: Double Agent](#splinter-cell-double-agent)
 - [Splinter Cell: Pandora Tomorrow](#splinter-cell-pandora-tomorrow)
@@ -379,6 +380,22 @@ DataFile=Profile.sav
 DataOffset=20
 DataLen=-20
 SigOffset=0
+```
+
+------
+
+#### Silent Hill 4: The Room
+
+```
+[SH4]
+ID=4B4E001F
+Title=Silent Hill 4: The Room
+SigKey=F51CE54B75A442BE31C167AA96999672
+AuthKey=2DC1FD8C6F2EE0524A766D37E586B742
+DataFile=*.dat
+DataOffset=0
+DataLen=-20
+SigOffset=-20
 ```
 
 ------
