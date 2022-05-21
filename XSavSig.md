@@ -46,6 +46,7 @@ __Index__
 - [Far Cry Instincts: Evolution](#far-cry-instincts-evolution)
 - [FlatOut](#flatout)
 - [FlatOut 2](#flatout-2)
+- [Forza Motorsport](#forza-motorsport)
 - [Grabbed by the Ghoulies](#grabbed-by-the-ghoulies)
 - [Hitman: Contracts](#hitman-contracts)
 - [Jet Set Radio Future](#jet-set-radio-future)
@@ -218,6 +219,41 @@ DataOffset=0
 DataLen=-20
 SigOffset=-20
 SigType=NoRoam
+```
+
+------
+
+#### Forza Motorsport
+
+`XboxHDKey required`
+
+```
+[FM_NR]
+ID=4D53006E
+Title=Forza Motorsport (non-roamable)
+SigKey=9B62FF6FF98DD4F002A1BD2B72608EFC
+AuthKey=909260B0E496746D5A1DC067A694F830
+;-----
+;SUPPORTED FILES: "UserProfile.xml", "Garage.bin", "Garage.dat", "*.crt", "Leaderboard*"
+;-----
+DataFile=*.* 
+DataOffset=0
+DataLen=-20
+SigOffset=-20
+SigType=NoRoam
+
+[FM_R]
+ID=4D53006E
+Title=Forza Motorsport (roamable)
+SigKey=9B62FF6FF98DD4F002A1BD2B72608EFC
+AuthKey=909260B0E496746D5A1DC067A694F830
+;-----
+;SUPPORTED FILES: "*.FGF", "*.frp"
+;-----
+DataFile=*.* 
+DataOffset=0
+DataLen=-20
+SigOffset=-20
 ```
 
 ------
