@@ -137,11 +137,11 @@ int main(int argc, char* argv[]) {
 
 	//--- file output ---
 
-	//if (WriteBytes(file_handle, 0, file_size, file_buffer) != file_size) {
+	if (WriteBytes(file_handle, 0, file_size, file_buffer) != file_size) {
 
-	//	printf("\nError: Failed to write file \"%s\"\n", file);
-	//	goto free_and_exit;
-	//}
+		printf("\nError: Failed to write file \"%s\"\n", file);
+		goto free_and_exit;
+	}
 
 	CloseFile(file_handle);
 
