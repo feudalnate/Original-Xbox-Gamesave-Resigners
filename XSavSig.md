@@ -52,6 +52,8 @@ __Index__
 - [Jet Set Radio Future](#jet-set-radio-future)
 - [Mafia](#mafia)
 - [Metal Gear Solid 2: Substance](#metal-gear-solid-2-substance)
+- [MotoGP](#motogp)
+- [MotoGP 2](#motogp-2)
 - [Ninja Gaiden](#ninja-gaiden)
 - [Ninja Gaiden Black](#ninja-gaiden-black)
 - [Project Gotham Racing 2](#project-gotham-racing-2)
@@ -344,6 +346,38 @@ DataFile=*.d
 DataOffset=24
 DataLen=-24
 SigOffset=4
+```
+
+------
+
+#### MotoGP
+
+```
+[MGP]
+ID=54510008
+Title=MotoGP (NTSC-U)
+SigKey=E32C0DCDF1200A729F54E81B5DEC06BA
+AuthKey=5DDB49EB053FD0B4ADEAFB4F23D8008A
+DataFile=gamedata
+DataOffset=0
+DataLen=-20
+SigOffset=-20
+```
+
+------
+
+#### MotoGP 2
+
+```
+[MGP2]
+ID=54510016
+Title=MotoGP 2 (NTSC-U)
+SigKey=1A6AAB369117FBEDFC2CBCE8395E8973
+AuthKey=CD6D6EB71089E557483E66BC51F55CC4
+DataFile=profile
+DataOffset=0
+DataLen=-20
+SigOffset=-20
 ```
 
 ------
