@@ -56,6 +56,8 @@ __Index__
 - [MotoGP 2](#motogp-2)
 - [Ninja Gaiden](#ninja-gaiden)
 - [Ninja Gaiden Black](#ninja-gaiden-black)
+- [Otogi: Myth of Demons](#otogi-myth-of-demons)
+- [Otogi 2: Immortal Warriors](#otogi-2-immortal-warriors)
 - [Project Gotham Racing 2](#project-gotham-racing-2)
 - [Silent Hill 4: The Room](#silent-hill-4-the-room)
 - [Splinter Cell: Chaos Theory](#splinter-cell-chaos-theory)
@@ -434,6 +436,38 @@ DataFile=system.dat
 DataOffset=20
 SigOffset=0
 SigType=NoRoam
+```
+
+------
+
+#### Otogi: Myth of Demons
+
+```
+[O1MoD]
+ID=46530002
+Title=Otogi: Myth of Demons
+SigKey=BC8C7B2D9CDFCE88DB435445EAD78DAD
+AuthKey=15BCC6854D8122990D0C964894C813BD
+DataFile=*.xsv
+DataOffset=24
+DataLen=-24
+SigOffset=4
+```
+
+------
+
+#### Otogi 2: Immortal Warriors
+
+```
+[O2IM]
+ID=46530004
+Title=Otogi 2: Immortal Warriors
+SigKey=456DFE66A20E0A976AED8F85FC978B39
+AuthKey=6F2502B88D553CE3AF4242FB203B6AE0
+DataFile=*.xsv
+DataOffset=24
+DataLen=-24
+SigOffset=4
 ```
 
 ------
