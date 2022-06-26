@@ -48,6 +48,8 @@ __Index__
 - [FlatOut 2](#flatout-2)
 - [Forza Motorsport](#forza-motorsport)
 - [Grabbed by the Ghoulies](#grabbed-by-the-ghoulies)
+- [Halo: Combat Evolved](#halo-combat-evolved)
+- [Halo 2](#halo-2)
 - [Hitman: Contracts](#hitman-contracts)
 - [Jet Set Radio Future](#jet-set-radio-future)
 - [Mafia](#mafia)
@@ -273,6 +275,68 @@ AuthKey=2618c508888e75b9363e23da8fe02d37
 DataFile=progress.xsv
 DataLen=1004
 SigOffset=1004
+```
+
+------
+
+#### Halo: Combat Evolved
+
+```
+[H1_G]
+ID=4D530004
+Title=Halo: Combat Evolved (Gametype)
+SigKey=1F71DE93D52AADB19446D7494F731158
+AuthKey=5770E155A1C75FA9830B141896544428
+DataFile=blam.lst
+DataOffset=0
+DataLen=104
+SigOffset=104
+
+[H1_P]
+ID=4D530004
+Title=Halo: Combat Evolved (Profile)
+SigKey=1F71DE93D52AADB19446D7494F731158
+AuthKey=5770E155A1C75FA9830B141896544428
+DataFile=blam.sav
+DataOffset=0
+DataLen=48
+SigOffset=48
+
+[H1_G_TW]
+ID=4D530057
+Title=Halo: Combat Evolved (Taiwan) (Gametype)
+SigKey=FEFE53BC72E2E07444D1D318ACE06DAC
+AuthKey=087F980482788FE539573697D7387BC2
+DataFile=blam.lst
+DataOffset=0
+DataLen=104
+SigOffset=104
+
+[H1_P_TW]
+ID=4D530057
+Title=Halo: Combat Evolved (Taiwan) (Profile)
+SigKey=FEFE53BC72E2E07444D1D318ACE06DAC
+AuthKey=087F980482788FE539573697D7387BC2
+DataFile=blam.sav
+DataOffset=0
+DataLen=48
+SigOffset=48
+```
+
+------
+
+#### Halo 2
+
+```
+[H2]
+ID=4D530064
+Title=Halo 2
+SigKey=2116D927510F01D19B7EC75CAFE669AC
+AuthKey=29328FAC19662CD21C92C49936D4A58D
+DataFile=*.*
+DataOffset=0
+DataLen=-20
+SigOffset=-20
 ```
 
 ------
