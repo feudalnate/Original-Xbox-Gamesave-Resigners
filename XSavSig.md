@@ -66,6 +66,7 @@ __Index__
 - [Splinter Cell: Double Agent](#splinter-cell-double-agent)
 - [Splinter Cell: Pandora Tomorrow](#splinter-cell-pandora-tomorrow)
 - [Star Wars: Republic Commando](#star-wars-republic-commando)
+- [Steel Battalion: Line of Contact](#steel-battalion-line-of-contact)
 - [The Thing](#the-thing)
 - [TimeSplitters 2](#timesplitters-2)
 - [TRON 2.0: Killer App](#tron-20-killer-app)
@@ -660,6 +661,22 @@ DataFile=*.*
 DataLen=-24
 SigOffset=-20
 SigType=NoRoam
+```
+
+------
+
+#### Steel Battalion: Line of Contact
+
+```
+[SBLoC]
+ID=43430009
+Title=Steel Battalion: Line of Contact
+SigKey=B91003CEC57E68A99AA961D10DC34C98
+AuthKey=7281FDBCCDC944DE71C341B4730A2D77
+DataFile=*.*
+DataOffset=24
+DataLen=-24
+SigOffset=4
 ```
 
 ------
