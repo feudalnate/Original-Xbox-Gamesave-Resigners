@@ -39,6 +39,7 @@ Configurations
 __Index__
 
 - [Armed & Dangerous](#armed--dangerous)
+- [Burnout 3: Takedown](#burnout-3-takedown)
 - [Call of Duty: Finest Hour](#call-of-duty-finest-hour)
 - [Darkwatch](#darkwatch)
 - [Dead or Alive Ultimate](#dead-or-alive-ultimate)
@@ -86,6 +87,25 @@ AuthKey=EB8174CA524C095806C7CADCEC3B8A5B
 DataFile=options.opt
 DataOffset=24
 SigOffset=0
+SigType=NoRoam
+```
+
+------
+
+#### Burnout 3: Takedown
+
+`XboxHDKey required`
+
+```
+[B3]
+ID=4541005B
+Title=Burnout 3: Takedown
+SigKey=8F4BC9B5D6B01E7F4772C5ACE04BC922
+AuthKey=B22A08CC431324366E65ADF1427845DC
+DataFile=*.*
+DataOffset=0
+DataLen=-20
+SigOffset=-20
 SigType=NoRoam
 ```
 
