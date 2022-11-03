@@ -1,26 +1,50 @@
-# Burnout 3 - (Re)Signer
-Tool for (re)signing Burnout 3 gamesaves for the Original Xbox
+# Burnout 3: Takedown Re-signer
 
 
-## Usage:
+### Usage (command line):
+> b3sign.exe [XboxHDKey] [file]
 
-### Signing a Burnout 3 gamesave
->b3fix [XboxHDKey] [filepath]  
+------
 
-### Obtaining your XboxHDKey:  
-  
-  
-#### Original Xbox (softmod/modchip only)
-  
-**This is not the XboxHDDKey, it is the XboxHDKey - note the extra d
-  
--- Method A  
->  1) Download, copy, and run ConfigMagic on your Xbox. Your XboxHDKey will be displayed on screen  
-  
--- Method B  
-> 1) Download, copy, and run a version EvoX dashboard with a backup option  
-> 2) Select the backup option and a log file will be created in the backup folder of the EvoX directory. XboxHDKey will be inside the log file  
-  
--- Method C  
-> 1) Download and open LiveInfo Beta  
-> 2) Open your EEPROM backup with LiveInfo and your XboxHDKey will be displayed   
+#### Gamesave location:
+
+> /UDATA/4541005B/[SaveID]/`*.*`
+
+<details>
+<summary>View 3 known file names</summary>
+
+```
+Profile 1
+Profile 2
+Profile 3
+```
+
+</details>
+
+------
+
+#### XboxHDKey (per-console key)
+
+* [Retrieve the XboxHDKey from a **Xbox** ](https://github.com/feudalnate/Original-Xbox-Gamesave-Resigners/blob/master/XboxHDKey.md#retrieving-the-xboxhdkey-from-the-xbox)
+* [Retrieve the XboxHDKey from a **Xbox 360** ](https://github.com/feudalnate/Original-Xbox-Gamesave-Resigners/blob/master/XboxHDKey.md#retrieving-the-xboxhdkey-from-the-xbox-360)
+
+------
+
+#### XSavSig
+
+> Add your XboxHDKey to "xbhddkey.ini"
+
+> Add entry to "resign.ini"
+
+```
+[B3]
+ID=4541005B
+Title=Burnout 3: Takedown
+SigKey=8F4BC9B5D6B01E7F4772C5ACE04BC922
+AuthKey=B22A08CC431324366E65ADF1427845DC
+DataFile=*.*
+DataOffset=0
+DataLen=-20
+SigOffset=-20
+SigType=NoRoam
+```
